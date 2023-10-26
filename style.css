@@ -7,11 +7,15 @@
 .container{
     margin: 30px;
     width: 30%;
-    height: 60vh;
+    height: 450vh;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+
+    padding: 2rem;
+    background-color: grey;
+    color: white;
 }
 
 .img{
@@ -19,3 +23,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+li{
+    list-style-type: none;
+}
+
